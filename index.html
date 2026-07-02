@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anjali Bhatt | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#071a35;
+color:white;
+}
+
+header{
+background:#031126;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+}
+
+header h2{
+color:#66b3ff;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+nav a:hover{
+color:#66b3ff;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px 10%;
+flex-wrap:wrap;
+}
+
+.hero-text{
+max-width:600px;
+animation:fade 1s ease;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.hero span{
+color:#66b3ff;
+}
+
+.hero p{
+margin:20px 0;
+line-height:1.7;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#66b3ff;
+color:white;
+text-decoration:none;
+border-radius:30px;
+transition:.3s;
+}
+
+.btn:hover{
+background:white;
+color:#031126;
+}
+
+.card{
+background:#0f2b55;
+margin:30px auto;
+padding:30px;
+width:80%;
+border-radius:12px;
+box-shadow:0 0 15px rgba(0,0,0,.3);
+animation:fade 1s ease;
+}
+
+h2{
+color:#66b3ff;
+margin-bottom:15px;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.skills div{
+background:#183d73;
+padding:10px 20px;
+border-radius:20px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+margin-top:40px;
+background:#031126;
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h2>Anjali Bhatt</h2>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Hello, I'm <span>Anjali</span> 👋</h1>
+
+<h3>BCA Student | Future Cloud Engineer ☁️</h3>
+
+<p>
+I am pursuing my BCA from CT University. I am passionate about Cloud Computing and currently learning Linux, Git, GitHub and AWS. My goal is to become a skilled Cloud Engineer.
+</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</div>
+
+</section>
+
+<div class="card" id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am from Ludhiana, Punjab. I enjoy learning new technologies and building practical projects. My aim is to build a successful career in Cloud Computing and DevOps.
+</p>
+
+</div>
+
+<div class="card" id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+<div>Linux</div>
+<div>Git</div>
+<div>GitHub</div>
+<div>AWS</div>
+<div>HTML</div>
+</div>
+
+</div>
+
+<div class="card" id="contact">
+
+<h2>Contact</h2>
+
+<p><strong>Email:</strong>
+<a href="mailto:anjalibhatt566@gmail.com" style="color:#66b3ff;text-decoration:none;">
+anjalibhatt566@gmail.com
+</a>
+</p>
+
+<p><strong>Location:</strong> Ludhiana, Punjab</p>
+
+<p><strong>Education:</strong> BCA, CT University</p>
+
+</div>
+
+<footer>
+
+<p>© 2026 Anjali Bhatt | Future Cloud Engineer ☁️</p>
+
+</footer>
+
+</body>
+</html>
